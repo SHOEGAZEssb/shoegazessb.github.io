@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WebScrubbler",
   "resources": {
-    "hash": "sha256-6x9LO87FHIfTw8TwiOf3q5kgmFpUvjv0jFpyAvAcRmg=",
+    "hash": "sha256-Gz4B6ZEFK2ZFRDvP6i+6yKUKbC+kQRoanO0LjRoXI9w=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -87,7 +87,7 @@
       "System.Xml.Linq.wasm": "sha256-ng7fAZ4zpacIHjSVvD/sql+V2/dPm/j1xyjCwAtIYOQ=",
       "System.Xml.ReaderWriter.wasm": "sha256-hS5ztDHmA/GjJTijQR+/WwPmpWbvk/c1yScd7Norkpw=",
       "System.Xml.XDocument.wasm": "sha256-sYZ5e1MCj4Me7575PI+con6HN1DPiGeyx9n31YIzbUA=",
-      "WebScrubbler.wasm": "sha256-s+TJdfNfNaqKNSr0637tYt/la3bdYxAE30x4QTmnDTo=",
+      "WebScrubbler.wasm": "sha256-wtcotVe0wx0wa5nioWq2WOiV2AWVGsO7PiJZbtQ2akU=",
       "WpfGridLayout.Blazor.wasm": "sha256-ABg0mvbsDNhCMwIPRJRm0JiWR6wFrT8Q0XxQsYBbqWw="
     }
   },
