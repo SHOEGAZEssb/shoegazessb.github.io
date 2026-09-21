@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141414">
+  <meta name="description" content="An independent collection of code, sound, and experiments.">
+  <title>Tim Stadler — Code & Sound</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="portfolio.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <header class="site-header shell">
+    <a class="wordmark" href="#" aria-label="Home"><span data-name>Tim Stadler</span></a>
+    <nav aria-label="Main navigation"><a href="#projects">Projects <span>↗</span></a><a href="#about">About <span>↗</span></a><a href="#links">Links <span>↗</span></a></nav>
+  </header>
+  <main>
+    <div class="hero shell">
+      <p class="hero-kicker">Independent work / code &amp; sound</p>
+      <p id="intro">Code, music, and things in between.</p>
+      <div class="signal-fragment" aria-hidden="true"></div>
+    </div>
+    <section id="projects" class="projects shell" aria-labelledby="projects-title">
+      <div class="section-heading"><h1 id="projects-title">Selected projects</h1><span class="section-note">05 projects</span></div>
+      <div class="project-toolbar"><div class="filters" role="group" aria-label="Filter projects"><button type="button" class="filter active" data-filter="all" aria-pressed="true">All <span id="all-count">05</span></button><button type="button" class="filter" data-filter="code" aria-pressed="false">Code <span id="code-count">03</span></button><button type="button" class="filter" data-filter="music" aria-pressed="false">Sound <span id="music-count">02</span></button></div><span class="toolbar-note" id="project-status" aria-live="polite"></span></div>
+      <div id="project-grid" class="project-grid"></div>
+      <noscript><p>Enable JavaScript to view the project collection. You can also visit <a href="https://github.com/shoegazessb">GitHub</a>.</p></noscript>
+    </section>
+    <div class="info-grid shell">
+      <section id="about" aria-labelledby="about-title"><h2 id="about-title">About</h2><p id="bio">Bio coming soon.</p></section>
+      <section id="links" aria-labelledby="links-title"><h2 id="links-title">Elsewhere</h2><div id="links-grid" class="links-grid"></div></section>
+    </div>
+  </main>
+  <footer class="shell"><span>© <span id="year"></span> <span data-name>Tim Stadler</span></span><a href="#">BACK TO TOP ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" aria-label="Close project details">✕</button><div class="eyebrow lime" id="dialog-kind"></div><h2 id="dialog-title"></h2><p id="dialog-description"></p><div id="dialog-tags" class="tags"></div><a id="dialog-link" class="project-link" target="_blank" rel="noopener noreferrer">Visit project ↗</a><p id="dialog-placeholder" class="placeholder-note">Placeholder project. Details coming soon.</p></dialog>
+</body>
+</html>
